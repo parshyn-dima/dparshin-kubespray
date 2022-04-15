@@ -5,6 +5,6 @@ terraform*.tfstate
 terraform*.tfstate*.backup
 terraform.tfvars
 hosts.ini
-**/artifacts
-**/credentials
+**/artifacts/*
+**/credentials/*
 **/.git
