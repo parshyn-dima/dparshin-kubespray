@@ -1,0 +1,10 @@
+**/.terraform
+.terraform.lock.hcl
+key.json
+terraform*.tfstate
+terraform*.tfstate*.backup
+terraform.tfvars
+hosts.ini
+**/artifacts
+**/credentials
+**/.git
