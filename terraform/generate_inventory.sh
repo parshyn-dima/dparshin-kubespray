@@ -26,7 +26,7 @@ printf "\n"
 done
 printf "\n"
 
-printf "[bastion_node]\n"
+printf "[bastion]\n"
 printf "bastion ansible_host="
 terraform output -json external_ip_address_bastion | jq -j ".[]"
 printf "   ansible_user=ubuntu"
